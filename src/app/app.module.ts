@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeMainComponent } from './componets/home-main/home-main.component';
 import { HeaderMainComponent } from './componets/header-main/header-main.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 const appRoutes: Routes = [
 
@@ -23,6 +24,7 @@ const appRoutes: Routes = [
     AppRoutingModule,
     RouterModule.forRoot(appRoutes),
     FormsModule,
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

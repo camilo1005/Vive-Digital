@@ -1,5 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
+ interface carouselImage{
+  imageAlt:string;
+  imageSrc:string;
+ }
 @Component({
   selector: 'app-home-main',
   templateUrl: './home-main.component.html',
@@ -8,6 +12,10 @@ import { Component, OnInit } from '@angular/core';
 export class HomeMainComponent implements OnInit {
 
   constructor() { }
+
+  @Input() images: carouselImage[] =[]
+
+  selectedIndex=0;
 
   ngOnInit(): void {
   }
