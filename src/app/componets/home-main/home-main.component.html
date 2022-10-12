@@ -44,18 +44,82 @@
 
         </div>
     </header>
-    <div class="carrusel">
 
+      <!-- carrusel -->
+
+    <div class="carrusel">
+    <ngb-carousel *ngIf="images" class="contenedor-carrusel">
+        <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+            <img src="../../../assets/images/DSC_3176.JPG" alt="Random first slide">
+            </div>
+          
+        </ng-template>
+        <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+            <img src="../../../assets/images/DSC_3187.JPG" alt="Random second slide">
+            </div>
+           
+        </ng-template>
+        <ng-template ngbSlide>
+            <div class="picsum-img-wrapper">
+            <img src="../../../assets/images/DSC_3174.JPG" alt="Random third slide">
+            </div>
+
+        </ng-template>
+        </ngb-carousel>
     </div>
+ 
+      <!-- textos-->
     <div class="descripcion">
         <div class="contenedor">
-            <h1>Quienes somos</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet totam, delectus explicabo illum quae incidunt, assumenda dolor nisi perferendis rem, hic accusamus in consequatur quis a? Ipsum incidunt iste illum, reprehenderit dignissimos quam in alias accusamus doloremque sapiente non a.</p>
+            <h1>Que ofrecemos</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo esse quod ducimus architecto adipisci, labore consequuntur eius iste veniam soluta quasi sed quidem vel nemo. Harum dolorum vero deleniti non. Aut eveniet assumenda earum beatae minus nesciunt voluptatum facilis voluptatibus doloremque repellat. Commodi consectetur qui nobis impedit dolorem consequatur a. Nemo in distinctio blanditiis molestiae tempora minima officia adipisci voluptas, exercitationem voluptatem dolore officiis voluptate odio deleniti reprehenderit dicta eius.</p>
         </div>
        
     </div>
+      <!-- franja -->
 
+    <section class="inicio" id="inicio">
+        <div class="content">
+            <h1>Bienvenidos al <span>Vive digital</span></h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor asperiores quos corrupti error beatae unde incidunt rem, omnis labore ratione saepe alias ea nisi quia sint quam eum voluptatibus modi distinctio est nulla in, voluptas reprehenderit. Nobis consequuntur magni accusantium quae aut quo mollitia? Optio architecto totam qui dignissimos labore dolorem temporibus dolore autem maiores corrupti sequi cumque, magni aspernatur ullam unde voluptatibus incidunt. Totam veritatis quia reiciendis maxime numquam!
+            </p>
+            <a href="/login" class="button">EMPEZAR</a>
+        </div>
+        <div class="image">
+            <img src="../../../assets/images/logo-lab-largo.png" alt="" />
+        </div>
+    </section>
 
+    <!-- cards-->
+    
+    <h1 class="title">titulo de ejemplo</h1>
+    <div class="container">
+        <div class="card">
+            <img src="../../../assets/images/DSC_3176.JPG" alt="">
+            <h4>Falta</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque qui accusamus delectus ab aut quasi eos aliquam ut eligendi recusandae.</p>
+            <a href="#">Leer mas</a>
+        </div>
+        <div class="card">
+            <img src="../../../assets/images/DSC_3176.JPG" alt="">
+            <h4>Falta</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque qui accusamus delectus ab aut quasi eos aliquam ut eligendi recusandae.</p>
+            <a href="#">Leer mas</a>
+        </div>
+        <div class="card">
+            <img src="../../../assets/images/DSC_3176.JPG" alt="">
+            <h4>Falta</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque qui accusamus delectus ab aut quasi eos aliquam ut eligendi recusandae.</p>
+            <a href="#">Leer mas</a>
+        </div>
+    </div>
+  
+    
+
+    <!-- footer -->
 
     <div class="franja"></div>
 
@@ -66,10 +130,11 @@
                     <p>
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis modi natus libero voluptatibus ut corporis porro quaerat laboriosam veritatis at, dolorum mollitia ratione aliquid. Totam atque nulla quod esse nihil.
                     </p>
+                    
                 </div>
             </div>
-            <div class="footer2">
-                <div class="box__footer">
+          
+            <div class="box__footer">
                 <h2>Stack de Desarrollo</h2>
                 <a href="https://es.wikipedia.org/wiki/HTML" target="_blank">Html</a>
                 <a href="https://es.wikipedia.org/wiki/CSS" target="_blank">Css</a>
@@ -79,18 +144,18 @@
 
             <div class="box__footer">
                 <h2>Redes Sociales</h2>
-                <a href="https://www.facebook.com/profile.php?id=100008450169272" target="_blank">
+                <a href="#" target="_blank">
                     <i class="fab fa-facebook-square"></i> Facebook</a>
                 <a href="https://twitter.com/Elsanti21rh?s=09" target="_blank"><i class="fab fa-twitter-square"></i>
                     Twitter</a>
-                <a href="https://www.instagram.com/sxntxxgx_rxxz/" target="_blank"><img
+                <a href="#" target="_blank"><img
                         src=".././../../assets/images/instagramIcon.png" class="igIcon" />
                     Instagram</a>
-                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSGKZVfgcNGBncCrxZsgkZcmRpTBwfCVnwLTJGLzTqBcpmsgPnngFZcKpFkxxkBsrgtnGwpj"
+                <a href="#"
                     target="_blank"><img src="../../../assets/images/email.png" class="gmailIcon" />
                     Gmail</a>
             </div>
-            </div>
+         
             
         </div>
 
@@ -101,6 +166,14 @@
     </footer>
 
 
+
+
+
+
+
  
 </body>
 </html>
+
+
+
