@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    
+    --background: linear-gradient(135deg , #667eea7e 0%, #764ba298 100%);
+    --color-primary:#667eea;
+    --color-secondary:#764ba2;
+    --boton-padding: 20px 40px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 80px 0;
+    max-width: 1200px;
+}
+
+.subtitle{
+    color: #667eea;
+    font-size: 2.5rem;
+    margin-bottom: 35px;
+}
+
+/*precentacion*/
+
+.precentation {
+    text-align: center;
+
+}
+.precentation_picture{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+    object-position: top;
+
+}
+
+.precentacion_copy{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.buton_precentation{
+    display: inline-block;
+    margin-top: 30px;
+    background: #667eea;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: 40px;
+}
+
+.about{
+    min-height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 80px;
+    justify-items: center;
+    align-items: center;
+
+}
+.about_img{
+    text-align: center;
+}
+.about_img--left{
+    text-align: left;
+}
+.about_picture{
+    max-width: 80%;
+}
+.about_paragraph{
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+/*proyectos*/
+
+.proyect{
+    background: #f2f2f2;
+}
+.projects_grid{
+    display: grid;
+    height: 550px;
+    grid-template-areas: 
+    "DSC_3202 DSC_3202 DSC_3174 DSC_3176"
+    "DSC_3202 DSC_3202 DSC_3178  DSC_3186";
+    gap: 10px;
+}
+
+.projects_item{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.projects_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.projects_item:nth-of-type(1){
+    grid-area: DSC_3202 ;
+}
+.projects_item:nth-of-type(2){
+    grid-area: DSC_3174 ;
+}
+.projects_item:nth-of-type(3){
+    grid-area: DSC_3176 ;
+}
+.projects_item:nth-of-type(4){
+    grid-area: DSC_3178 ;
+}
+.projects_item:nth-of-type(5){
+    grid-area: DSC_3186;
+}
+.projecs_hover{
+    position: absolute;
+    background: #dc143c8c;
+    top: 0;
+    height: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translateX(100%);
+    cursor: pointer;
+    transition: transform .3s ease-in-out;
+}
+.projects_item:hover .projecs_hover{
+    transform: translateX(0%);
+}
+
+.projects_icon{
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+/*ultimo*/
+
+.testimony_grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.testimony_item{
+    width: 95%;
+    margin: 0 auto;
+    background: #764ba2 ;
+    box-shadow: 0 8px 10px rgba(66, 66,  66, .5);
+    border-radius: 7px;
+    padding: 30px 25px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.testimony_person{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.testimony_img{
+    width: 100%;
+    min-width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-right: 30px;
+}
+.testimony_name{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}

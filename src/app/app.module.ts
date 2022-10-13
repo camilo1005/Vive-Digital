@@ -8,16 +8,19 @@ import { AppComponent } from './app.component';
 import { HomeMainComponent } from './componets/home-main/home-main.component';
 import { HeaderMainComponent } from './componets/header-main/header-main.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { LoQueHacemosComponent } from './componets/lo-que-hacemos/lo-que-hacemos.component';
 
 const appRoutes: Routes = [
-
+  {path:'holi', component:HeaderMainComponent},
   {path:'hola', component:HomeMainComponent},
+  {path:'hola2', component:LoQueHacemosComponent},
 ]
 @NgModule({
   declarations: [
     AppComponent,
     HomeMainComponent,
-    HeaderMainComponent
+    HeaderMainComponent,
+    LoQueHacemosComponent
   ],
   imports: [
     BrowserModule,
