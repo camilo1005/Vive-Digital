@@ -9,18 +9,23 @@ import { HomeMainComponent } from './componets/home-main/home-main.component';
 import { HeaderMainComponent } from './componets/header-main/header-main.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { LoQueHacemosComponent } from './componets/lo-que-hacemos/lo-que-hacemos.component';
+import { PortafolioComponent } from './componets/portafolio/portafolio.component';
+import { ServiciosComponent } from './componets/servicios/servicios.component';
 
 const appRoutes: Routes = [
   {path:'holi', component:HeaderMainComponent},
   {path:'hola', component:HomeMainComponent},
   {path:'hola2', component:LoQueHacemosComponent},
+  {path:'hola3', component:PortafolioComponent },
 ]
 @NgModule({
   declarations: [
     AppComponent,
     HomeMainComponent,
     HeaderMainComponent,
-    LoQueHacemosComponent
+    LoQueHacemosComponent,
+    PortafolioComponent,
+    ServiciosComponent
   ],
   imports: [
     BrowserModule,
