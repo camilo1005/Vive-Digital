@@ -14,10 +14,10 @@ import { ServiciosComponent } from './componets/servicios/servicios.component';
 
 const appRoutes: Routes = [
   {path:'holi', component:HeaderMainComponent},
-  {path:'hola', component:HomeMainComponent},
-  {path:'hola2', component:LoQueHacemosComponent},
-  {path:'hola3', component:PortafolioComponent },
-  {path:'hola4', component:ServiciosComponent },
+  {path:'inicio', component:HomeMainComponent},
+  {path:'nosotros', component:LoQueHacemosComponent},
+  {path:'portafolio', component:PortafolioComponent },
+  {path:'servicios', component:ServiciosComponent },
 ]
 @NgModule({
   declarations: [

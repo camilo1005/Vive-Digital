@@ -1,0 +1,37 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container-one{
+    display: grid;
+    grid-template-rows: 350px 350px;
+    grid-template-columns: 300px 300px 300px 300px;
+    justify-content: end;
+    padding-top: 6%;
+
+}
+
+.container-two{
+    display: flex;
+    justify-content: center;
+    gap: 27px;
+ 
+}
+
+.container-two a{
+    width: 104%;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.container-two img{
+    width: 100%;
+}
+.container-tree{
+    width: 104%;
+	position: relative;
+	overflow: hidden;
+  
+}
+

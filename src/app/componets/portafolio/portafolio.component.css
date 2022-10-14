@@ -22,11 +22,6 @@ body{
     
 }
 
-.portafolio h1{
-	text-align: center;
-	font-size: 38px;
-	margin: 15px 0px 40px;
-}
 
 .portafolio-container{
     display: grid;
@@ -34,6 +29,11 @@ body{
     grid-template-columns: 300px 300px 300px 300px;
     justify-content: end;
     gap: 27px;
+}
+.portafolio h1{
+	text-align: center;
+	font-size: 38px;
+	margin: 15px 0px 40px;
 }
 
 .portafolio-item{
