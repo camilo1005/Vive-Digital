@@ -17,6 +17,7 @@ const appRoutes: Routes = [
   {path:'hola', component:HomeMainComponent},
   {path:'hola2', component:LoQueHacemosComponent},
   {path:'hola3', component:PortafolioComponent },
+  {path:'hola4', component:ServiciosComponent },
 ]
 @NgModule({
   declarations: [
