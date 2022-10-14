@@ -1,0 +1,100 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+#contenidos-paginas{
+   margin: 4% 0;
+}
+.franja{
+    border: 1px solid gray;
+    height: 1px;
+    width: 100%;
+    background-color: gray;
+    margin: 34px 0;
+}
+
+
+
+
+.encabezados{
+    text-align: center;
+}
+.descripcion-pagina{
+    margin-top: 1%;
+    text-align: center;
+    padding: 0 20%;
+}
+#izquierda{
+	width: 42%;
+    height: auto;
+    overflow: hidden;
+    border: 0px solid;
+    float: left;
+    margin: 20px 4%;
+}
+
+.texto-contacto{
+	text-align: left;
+}
+
+.email-contacto{
+	color: #848484;
+	text-decoration: none;
+}
+
+.email-contacto:hover{
+	text-decoration: underline;
+}
+
+#derecha{
+    width: 504px;
+    border: 0px solid;
+    height: auto;
+    overflow: hidden;
+    float: right;
+    margin: 0 167px;
+}
+
+input[type="text"], input[type="email"]{
+	border: 1px solid #ccc;
+	padding: 5px;
+	border-radius: 5px;
+	margin: 5px;
+}
+
+
+
+
+textarea{
+	border: 1px solid #ccc;
+	padding: 5px;
+	border-radius: 5px;
+	margin: 5px;
+}
+
+.nombre-mensaje{
+	width: 95%;
+}
+
+.email-asunto{
+	width: 45%;
+}
+
+
+input[type="submit"]{
+	padding: 10px;
+	background: #0489B1;
+	color: #fff;
+	border: 1px solid #086A87;
+	border-radius: 5px;
+}
+
+#mapa{
+	width: 100%;
+	height: auto; overflow: hidden;
+	padding: 20px;
+    margin:  0 26%;
+    margin-top: 10%;
+}

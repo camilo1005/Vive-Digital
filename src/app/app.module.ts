@@ -11,6 +11,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { LoQueHacemosComponent } from './componets/lo-que-hacemos/lo-que-hacemos.component';
 import { PortafolioComponent } from './componets/portafolio/portafolio.component';
 import { ServiciosComponent } from './componets/servicios/servicios.component';
+import { ContactosComponent } from './componets/contactos/contactos.component';
 
 const appRoutes: Routes = [
   {path:'holi', component:HeaderMainComponent},
@@ -18,6 +19,7 @@ const appRoutes: Routes = [
   {path:'nosotros', component:LoQueHacemosComponent},
   {path:'portafolio', component:PortafolioComponent },
   {path:'servicios', component:ServiciosComponent },
+  {path:'contactos', component:ContactosComponent },
 ]
 @NgModule({
   declarations: [
@@ -26,7 +28,8 @@ const appRoutes: Routes = [
     HeaderMainComponent,
     LoQueHacemosComponent,
     PortafolioComponent,
-    ServiciosComponent
+    ServiciosComponent,
+    ContactosComponent
   ],
   imports: [
     BrowserModule,
