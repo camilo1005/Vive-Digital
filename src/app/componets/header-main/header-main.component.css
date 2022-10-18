@@ -61,7 +61,7 @@ nav>ul>li >a{
 }
 nav>ul>li>a:hover{
     transform: scale(1.1);
-    background-color: #0074c7;
+    background-color: #9d46b8;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
     
 }
@@ -99,7 +99,7 @@ nav ul li ul:before{
 }
 nav ul li ul li a{
     display: block;
-    color: #0099e9;
+    color: #9d46b8;
     padding: 6px;
     margin-left: 14px;
     margin-top: 10px;
@@ -109,7 +109,7 @@ nav ul li ul li a{
 }
 
 nav ul li ul li a:hover{
-    background: #0074c7;
+    background: #9d46b8;
     color: #fff;
     transform: scale(1.1);
     padding-left: 30px;
