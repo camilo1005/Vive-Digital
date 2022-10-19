@@ -49,12 +49,12 @@
 }
 
 #derecha{
-    width: 504px;
+    width: 823px;
     border: 0px solid;
-    height: auto;
+    height: 511px;
     overflow: hidden;
     float: right;
-    margin: 0 167px;
+    margin: -15% 167px;
 }
 
 input[type="text"], input[type="email"]{
