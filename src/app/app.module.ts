@@ -12,6 +12,12 @@ import { LoQueHacemosComponent } from './componets/lo-que-hacemos/lo-que-hacemos
 import { PortafolioComponent } from './componets/portafolio/portafolio.component';
 import { ServiciosComponent } from './componets/servicios/servicios.component';
 import { ContactosComponent } from './componets/contactos/contactos.component';
+import { MarcaComponent } from './componets/marca/marca.component';
+import { PublicidadExteriorComponent } from './componets/publicidad-exterior/publicidad-exterior.component';
+import { ImpresosComponent } from './componets/impresos/impresos.component';
+import { DigitalWebComponent } from './componets/digital-web/digital-web.component';
+import { FotografiaComponent } from './componets/fotografia/fotografia.component';
+import { AnimacionDigitalComponent } from './componets/animacion-digital/animacion-digital.component';
 
 const appRoutes: Routes = [
   {path:'holi', component:HeaderMainComponent},
@@ -29,7 +35,13 @@ const appRoutes: Routes = [
     LoQueHacemosComponent,
     PortafolioComponent,
     ServiciosComponent,
-    ContactosComponent
+    ContactosComponent,
+    MarcaComponent,
+    PublicidadExteriorComponent,
+    ImpresosComponent,
+    DigitalWebComponent,
+    FotografiaComponent,
+    AnimacionDigitalComponent
   ],
   imports: [
     BrowserModule,
