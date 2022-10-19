@@ -22,7 +22,7 @@ import { InfoarquitecturaComponent } from './componets/infoarquitectura/infoarqu
 import { VideoPorDronComponent } from './componets/video-por-dron/video-por-dron.component';
 
 const appRoutes: Routes = [
-  {path:'inicio', component:HomeMainComponent},
+  {path:'', component:HomeMainComponent},
   {path:'nosotros', component:LoQueHacemosComponent},
   {path:'portafolio', component:PortafolioComponent },
   {path:'servicios', component:ServiciosComponent },
