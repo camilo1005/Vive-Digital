@@ -18,14 +18,24 @@ import { ImpresosComponent } from './componets/impresos/impresos.component';
 import { DigitalWebComponent } from './componets/digital-web/digital-web.component';
 import { FotografiaComponent } from './componets/fotografia/fotografia.component';
 import { AnimacionDigitalComponent } from './componets/animacion-digital/animacion-digital.component';
+import { InfoarquitecturaComponent } from './componets/infoarquitectura/infoarquitectura.component';
+import { VideoPorDronComponent } from './componets/video-por-dron/video-por-dron.component';
 
 const appRoutes: Routes = [
-  {path:'holi', component:HeaderMainComponent},
   {path:'inicio', component:HomeMainComponent},
   {path:'nosotros', component:LoQueHacemosComponent},
   {path:'portafolio', component:PortafolioComponent },
   {path:'servicios', component:ServiciosComponent },
   {path:'contactos', component:ContactosComponent },
+  {path:'marca', component:MarcaComponent},
+  {path:'publicidadexterior', component:PublicidadExteriorComponent },
+  {path:'impresos', component:ImpresosComponent },
+  {path:'digitalweb', component:DigitalWebComponent},
+  {path:'fotografia', component:FotografiaComponent  },
+  {path:'animaciondigital', component:AnimacionDigitalComponent },
+  {path:'infoarquitectura', component:InfoarquitecturaComponent },
+  {path:'videopordron', component:VideoPorDronComponent },
+
 ]
 @NgModule({
   declarations: [
@@ -41,7 +51,9 @@ const appRoutes: Routes = [
     ImpresosComponent,
     DigitalWebComponent,
     FotografiaComponent,
-    AnimacionDigitalComponent
+    AnimacionDigitalComponent,
+    InfoarquitecturaComponent,
+    VideoPorDronComponent
   ],
   imports: [
     BrowserModule,
