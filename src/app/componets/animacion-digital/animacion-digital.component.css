@@ -1,23 +1,27 @@
 *{
     padding: 0;
     margin: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
+  
     box-sizing: border-box;
   }
   
-  body{
-    background-color: #eee;
-    font-family: 'Open Sans', sans-serif;
-  }
   
+  body{
+   
+    font-family: 'Open Sans', sans-serif;
+
+  }
+  h1{
+    text-align: center;
+    margin: 91px 1px;
+  }
   
   .container{
     width: 90%;
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3em;
+
     margin-bottom: 3em;
     
     display: grid;
@@ -66,8 +70,10 @@
   
   
   .item-img{
-    max-width: 100%;
-    display: block;
+
+    max-width: 103%;
+    /* display: block; */
+    height: 68%;
   }
   
   
