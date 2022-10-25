@@ -20,6 +20,9 @@ import { FotografiaComponent } from './componets/fotografia/fotografia.component
 import { AnimacionDigitalComponent } from './componets/animacion-digital/animacion-digital.component';
 import { InfoarquitecturaComponent } from './componets/infoarquitectura/infoarquitectura.component';
 import { VideoPorDronComponent } from './componets/video-por-dron/video-por-dron.component';
+import {AutocompleteLibModule} from 'angular-ng-autocomplete';
+import { CargarService } from './servicios/cargar.service';
+
 
 const appRoutes: Routes = [
   {path:'', component:HomeMainComponent},
@@ -61,9 +64,12 @@ const appRoutes: Routes = [
     RouterModule.forRoot(appRoutes),
     FormsModule,
     NgbModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    AutocompleteLibModule
   ],
-  providers: [],
+  providers: [
+    CargarService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
