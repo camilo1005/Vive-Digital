@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { CargarService } from 'src/app/servicios/cargar.service';
+import { CargarService } from 'src/app/servicios/buscador/cargar.service';
+
 
 @Component({
   selector: 'app-digital-web',

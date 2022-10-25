@@ -21,7 +21,9 @@ import { AnimacionDigitalComponent } from './componets/animacion-digital/animaci
 import { InfoarquitecturaComponent } from './componets/infoarquitectura/infoarquitectura.component';
 import { VideoPorDronComponent } from './componets/video-por-dron/video-por-dron.component';
 import {AutocompleteLibModule} from 'angular-ng-autocomplete';
-import { CargarService } from './servicios/cargar.service';
+import { CargarService } from './servicios/buscador/cargar.service';
+import { GaleraiascriptService } from './servicios/galeria/galeraiascript.service';
+
 
 
 const appRoutes: Routes = [
@@ -68,7 +70,8 @@ const appRoutes: Routes = [
     AutocompleteLibModule
   ],
   providers: [
-    CargarService
+    CargarService,
+    GaleraiascriptService
   ],
   bootstrap: [AppComponent]
 })
