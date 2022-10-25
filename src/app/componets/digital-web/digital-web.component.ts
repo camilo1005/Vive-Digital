@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CargarService } from 'src/app/servicios/cargar.service';
 
 @Component({
   selector: 'app-digital-web',
@@ -7,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DigitalWebComponent implements OnInit {
 
-  constructor() { }
+  constructor(private cargarscript:CargarService) { 
+    cargarscript.cargar(["hola"]);
+  }
 
   ngOnInit(): void {
   }
