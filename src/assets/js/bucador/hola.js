@@ -174,15 +174,18 @@
         consulta.search($(this).val()).draw();
     
         $("header").css({
-            "height": "100vh",
+            
             "background": "rgba(0,0,0,0.5)"
         })
     
         if ($("#inputBusqueda").val() == ""){
-            $("header").css({
+            $("label").css({
                 "height": "auto",
-                "background": "none"
+                "background": "none",
+                "display": "none",
+                
             })
+         
     
             $("#search").hide()
     
