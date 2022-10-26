@@ -69,26 +69,14 @@ tbody tr td a{
 	border: 2px solid #fff;
 }
 
-tbody tr td a:hover{
-	border: 2px solid #378FD9;
-}
-
-.search::-webkit-scrollbar{ 
-	background:rgba(0,0,0,0);  
-}
-
-.search::-webkit-scrollbar-button{
- 	background:#C1C1C1;  
-}
-
-.search::-webkit-scrollbar-thumb{ 
-	background:#C1C1C1; 
-}
-
 .dataTables_length,
 .dataTables_filter,
 .dataTables_info,
 .dataTables_paginate {
 	display: none;
+	background-color: red;
 }
 
+label {
+    display: none;
+}
