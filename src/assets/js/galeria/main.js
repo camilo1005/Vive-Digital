@@ -1,7 +1,11 @@
-document.addEventListener('DOMContentLoaded', () => {
-	const imgLightBox = document.querySelectorAll('.materialboxed');
-	M.Materialbox.init(imgLightBox, {
-		inDuration: 500,
-		outDuration: 500
-	});
-});
+const fulImgBox=document.getElementById("fulImgBox");
+const fulImg=document.getElementById("fulImg");
+
+function openFulImg(reference){
+	fulImgBox.style.display="flex";
+	fulImg.src=reference;
+}
+
+function closeImg(){
+	fulImgBox.style.display="none";
+}

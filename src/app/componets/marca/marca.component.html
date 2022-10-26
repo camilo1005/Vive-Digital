@@ -7,34 +7,16 @@
     <title>Document</title>
 </head>
 <body>
-    <main class="container">
-        <div class="row">
-             <div class="col s12 center-align">
-                  <h1 class="titulo">Lightbox</h1>
-             </div>
-        </div>
+     <div class="ful-img" id="fulImgBox">
+          <img src="../../../assets/marca/Logo avifauna nuevo.png" id="fulImg" alt="">
+          <span onclick="closeImg()">x</span>
+     </div>
+   <h1>Marca</h1>
+   <div class="img-gallery">
+     <img src="../../../assets/marca/Logo avifauna nuevo.png"  onclick="openFulImg(this.src)" alt="">
+     <img src="../../../assets/marca/Logo laabuelagrillo nuevo.png" onclick="openFulImg(this.src)"  alt="">
+     <img src="../../../assets/marca/Recurso 1.png" onclick="openFulImg(this.src)"  alt="">
+   </div>
 
-        <div class="row galeria">
-             <div class="col s12 m4 l3">
-                  <div class="material-placeholder">
-                       <img src="../../../assets/images/DSC_3175VVV.jpg" alt="" class="responsive-img materialboxed" data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
-                  </div>
-             </div>
-             
-             <div class="col s12 m4 l3">
-                  <div class="material-placeholder">
-                       <img src="../../../assets/images/DSC_3175VVV.jpg" alt="" class="responsive-img materialboxed" data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
-                  </div>
-             </div>
-             
-             <div class="col s12 m4 l3">
-                  <div class="material-placeholder"><img src="../../../assets/images/DSC_3175VVV.jpg" alt="" class="responsive-img materialboxed" data-caption="Lorem ipsum dolor sit amet, consectetur adipisicing elit."></div>
-             </div>
-             
-             
-        </div>
-   </main>
-
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 </html>
