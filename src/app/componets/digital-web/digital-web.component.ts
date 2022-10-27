@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CargarService } from 'src/app/servicios/buscador/cargar.service';
+
 
 
 @Component({
@@ -9,8 +9,8 @@ import { CargarService } from 'src/app/servicios/buscador/cargar.service';
 })
 export class DigitalWebComponent implements OnInit {
 
-  constructor(private cargarscript:CargarService) { 
-    cargarscript.cargar(["hola"]);
+  constructor() { 
+    
   }
 
   ngOnInit(): void {
