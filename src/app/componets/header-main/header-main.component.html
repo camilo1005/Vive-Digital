@@ -14,9 +14,40 @@
                 <a [routerLink]="['/']">  <img src="../../../assets/images/logo-lab-largo.png" alt=""></a>
               
             </div>
-            <div class="search">
-                <input type="search" placeholder="¿Que deseas buscar?">
+            <div class="header">
+                <div class="input">
+                    <div class="header-top">
+                        <div class="navegacion">
+                            <input type="search" placeholder="¿Que Desea Buscar?" id="inputBusqueda">
+                        </div>
+                    </div>
+                    <div class="search" id="search">
+                        <table class="search-table" id="searchTable">
+                            <thead>
+                                <tr>
+                                    <td></td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a [routerLink]="['/']">Inicio</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a [routerLink]="['/servicios']">Servicios</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a [routerLink]="['/nosotros']">Nosotros</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a [routerLink]="['/contactos']">Contactos</a></td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
+            
         </div>
         <div class="container_menu">
             <div class="menu">
@@ -44,6 +75,8 @@
 
         </div>
     </header>
+
+
 
 
     <div class="container">

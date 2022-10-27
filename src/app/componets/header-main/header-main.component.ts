@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { CargarService } from 'src/app/servicios/buscador/cargar.service';
 @Component({
   selector: 'app-header-main',
   templateUrl: './header-main.component.html',
@@ -8,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderMainComponent implements OnInit {
 
 
-  constructor() { }
+  constructor(private cargarscript:CargarService) { 
+    cargarscript.cargar(["hola"]);
+  }
 
   ngOnInit(): void {
   }
