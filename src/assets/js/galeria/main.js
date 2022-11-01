@@ -9,3 +9,15 @@ function openFulImg(reference){
 function closeImg(){
 	fulImgBox.style.display="none";
 }
+
+
+
+window.onload = () => {
+	setTimeout(() => {
+		document.getElementsByTagName('body')[0].style.backgroundColor = 'white';
+	}, 3000);
+}
+
+function refrescarPagina() {
+	location.reload();
+}

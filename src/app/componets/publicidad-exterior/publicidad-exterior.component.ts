@@ -8,7 +8,7 @@ import { GaleraiascriptService } from 'src/app/servicios/galeria/galeraiascript.
 export class PublicidadExteriorComponent implements OnInit {
 
   constructor(private galeria:GaleraiascriptService) { 
-    galeria.cargar(["main"]);
+    galeria.cargar([""]);
   }
   
 

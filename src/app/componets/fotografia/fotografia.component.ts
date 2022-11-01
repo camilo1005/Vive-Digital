@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { GaleraiascriptService } from 'src/app/servicios/galeria/galeraiascript.service';
 @Component({
   selector: 'app-fotografia',
   templateUrl: './fotografia.component.html',
@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FotografiaComponent implements OnInit {
 
-  constructor() { }
+  
+  constructor(private galeria:GaleraiascriptService) { 
+    galeria.cargar(["main"]);
+  }
+  
 
   ngOnInit(): void {
   }

@@ -225,3 +225,8 @@ tbody tr td a:hover{
     transform: scale(1.1);
     border: 1px solid black;
 }
+
+
+@media (min-width: 1440px){
+  
+}
