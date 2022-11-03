@@ -227,6 +227,14 @@ tbody tr td a:hover{
 }
 
 
-@media (min-width: 1440px){
-  
+@media screen and (max-width: 1440px){
+
+    .container{
+        position: fixed;
+        bottom: 134px;
+        right: -287px;
+    }
+
+   
+    
 }

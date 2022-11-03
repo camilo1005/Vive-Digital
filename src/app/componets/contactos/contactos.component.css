@@ -54,7 +54,7 @@
     height: 495px;
     overflow: hidden;
     float: right;
-    margin: -14% 167px;
+    margin: -12% 167px;
 }
 
 input[type="text"], input[type="email"]{
@@ -97,4 +97,12 @@ input[type="submit"]{
 	padding: 20px;
     margin:  0 26%;
     margin-top: 10%;
+}
+
+
+@media screen and (max-width: 1440px){
+    #derecha{
+        margin: -17% 0;
+    }
+
 }
