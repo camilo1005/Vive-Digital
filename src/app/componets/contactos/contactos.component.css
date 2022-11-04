@@ -106,3 +106,17 @@ input[type="submit"]{
     }
 
 }
+
+@media screen and (max-width: 475px){
+    #izquierda {
+        width: 138%;
+        margin: 36px -90px;
+    }
+
+    #derecha{
+        margin: 1% 12px;
+        width: 452px;
+    }
+
+	
+}

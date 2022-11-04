@@ -332,3 +332,43 @@ footer{
  
 
 }
+
+@media screen and (max-width: 475px){
+    .contenedor-carrusel{
+
+        height: 27vh;
+    
+    }
+    .contenedor-carrusel img{
+        height: 27vh;
+    }
+
+
+    .inicio{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 735px;
+        gap: 46px;
+    }
+
+    
+
+
+    .inicio .image img{
+        width: 75vw;
+
+    }
+
+    .container{
+        height: 164vh;
+    }
+    .container__footer{
+        display: flex;
+        flex-direction: column;
+        margin-left: 6%;
+        
+    }
+
+}
