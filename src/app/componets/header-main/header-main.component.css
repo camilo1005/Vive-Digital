@@ -238,3 +238,14 @@ tbody tr td a:hover{
    
     
 }
+
+@media screen and (max-width: 475px){
+
+    .logo img {
+        width: 106%;
+        height: 66px;
+    }
+
+
+
+}
