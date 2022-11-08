@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-
+import { GaleraiascriptService } from 'src/app/servicios/galeria/galeraiascript.service';
  interface carouselImage{
   imageAlt:string;
   imageSrc:string;
@@ -11,11 +11,11 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class HomeMainComponent implements OnInit {
 
-  constructor() { }
+  constructor(private galeria:GaleraiascriptService) { 
+    galeria.cargar(["main"]);
+  }
 
-  @Input() images: carouselImage[] =[]
 
-  selectedIndex=0;
 
   ngOnInit(): void {
   }

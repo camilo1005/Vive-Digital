@@ -12,31 +12,20 @@
 
     <!-- carrusel -->
 
-    <div class="carrusel">
-        <ngb-carousel *ngIf="images" class="contenedor-carrusel">
-            <ng-template ngbSlide>
-                <div class="picsum-img-wrapper">
-                    <img src="../../../assets/images/Banner 2.jpg "alt="Random first slide">
-                </div>
-            
-            </ng-template>
-            <ng-template ngbSlide>
-                <div class="picsum-img-wrapper">
-                    <img src="../../../assets/images/Banner3.jpg" alt="Random second slide">
-                </div>
-            
-            </ng-template>
-            <ng-template ngbSlide>
-                <div class="picsum-img-wrapper">
-                    <img src="../../../assets/images/Portada.jpg" alt="Random third slide">
-                </div>
-
-            </ng-template>
-        </ngb-carousel>
+    <div class="container1">
+        <div class="thumbnail-img">
+            <img src="../../../assets/images/DSC_3178.JPG" alt="">
+            <i class="fas fa-play" onclick="nose()"></i>     
+        </div> 
+        <div class="popup-modal"  onclick="nose2()"> 
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/O1YAfWrgtkw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
             
     </div>
- 
-      <!-- textos-->
+        
+            
+
+    <!-- textos-->
     <div class="descripcion">
         <div class="contenedor">
             <h1>Que ofrecemos</h1>
