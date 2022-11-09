@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { GaleraiascriptService } from 'src/app/servicios/galeria/galeraiascript.service';
+import { ModalService } from 'src/app/servicios/modal/modal.service';
+
  interface carouselImage{
   imageAlt:string;
   imageSrc:string;
@@ -11,8 +12,8 @@ import { GaleraiascriptService } from 'src/app/servicios/galeria/galeraiascript.
 })
 export class HomeMainComponent implements OnInit {
 
-  constructor(private galeria:GaleraiascriptService) { 
-    galeria.cargar(["main"]);
+  constructor(private galeria:ModalService) { 
+    galeria.cargar(["modal2"]);
   }
 
 
