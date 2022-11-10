@@ -23,6 +23,8 @@ import { VideoPorDronComponent } from './componets/video-por-dron/video-por-dron
 import {AutocompleteLibModule} from 'angular-ng-autocomplete';
 import { CargarService } from './servicios/buscador/cargar.service';
 import { GaleraiascriptService } from './servicios/galeria/galeraiascript.service';
+import { ModalVideoComponent } from './modals/modal-video/modal-video.component';
+import { ModalService } from './servicios/modal/modal.service';
 
 
 
@@ -40,6 +42,7 @@ const appRoutes: Routes = [
   {path:'animaciondigital', component:AnimacionDigitalComponent },
   {path:'infoarquitectura', component:InfoarquitecturaComponent },
   {path:'videopordron', component:VideoPorDronComponent },
+  {path:'video', component:ModalVideoComponent },
 
 ]
 @NgModule({
@@ -58,7 +61,8 @@ const appRoutes: Routes = [
     FotografiaComponent,
     AnimacionDigitalComponent,
     InfoarquitecturaComponent,
-    VideoPorDronComponent
+    VideoPorDronComponent,
+    ModalVideoComponent
   ],
   imports: [
     BrowserModule,
@@ -71,7 +75,9 @@ const appRoutes: Routes = [
   ],
   providers: [
     CargarService,
-    GaleraiascriptService
+    GaleraiascriptService,
+    ModalService,
+    
   ],
   bootstrap: [AppComponent]
 })

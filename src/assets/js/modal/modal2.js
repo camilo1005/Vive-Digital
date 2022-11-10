@@ -1,11 +1,35 @@
-const play =document.querySelector(".fa-play");
-const ventana =document.querySelector(".popup-modal");
 
-function nose(){
-	ventana.style.transform="scaleX(1)";
 
-}
+const video = document.querySelector('#video');
+const btnPause = document.querySelector('#btnPause')
+const btnAudio = document.querySelector('#btnAudio');
 
-function nose2(){
-	ventana.style.transform="scaleX(0)";
-}
+video.volume = 0;
+
+btnPause.addEventListener('click', () => {
+
+    if ( video.paused ) {
+
+        video.play();
+
+    } else {
+
+        video.pause();
+
+    }
+
+});
+
+btnAudio.addEventListener('click', () => {
+
+    if ( video.muted == true ) {
+
+        video.muted = false;
+
+    } else {
+
+        video.muted = true;
+
+    }
+
+});
