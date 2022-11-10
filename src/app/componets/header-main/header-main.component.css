@@ -9,6 +9,19 @@
 
 
 /*Header*/
+
+.header-top{
+    display: flex;
+    gap: 10px;
+    margin: 0 -138px;
+}
+
+.btn{
+    background: none;
+    width: 262px;
+    height: 48px;
+    margin: 8px 0;
+}
 .header_superior{
     max-width: 1200px;
     margin: auto;
@@ -187,6 +200,7 @@ input[type="search"]{
 	padding-bottom: 5px;
 	max-height: 85%;
 	display: none;
+    margin: -37px -130px;
    
 }
 
@@ -216,7 +230,7 @@ tbody tr td a{
     display: flex;
     flex-direction: column;
     gap: 10px;
- 
+    margin: -5px -12px;
 
     
 }
@@ -224,6 +238,11 @@ tbody tr td a{
 tbody tr td a:hover{
     transform: scale(1.1);
     border: 1px solid black;
+}
+
+.boton{
+    float: right;
+    margin: 0 0;
 }
 
 
