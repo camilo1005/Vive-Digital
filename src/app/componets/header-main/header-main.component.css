@@ -138,7 +138,7 @@ nav ul li ul li a:hover{
 .redes a, .btn-mas label{
     display: block;
     text-decoration: none;
-    background: #269726;
+    background: #9d46b8;
     color: #fff;
     width: 55px;
     height: 55px;
@@ -150,7 +150,7 @@ nav ul li ul li a:hover{
 }
 .redes a:hover{
     background: #fff;
-    color: #269726;
+    color: #9d46b8;
 }
 .redes a{
     margin-bottom: -15px;
@@ -165,7 +165,7 @@ nav ul li ul li a:hover{
 }
 .btn-mas label{
     cursor: pointer;
-    background: #269726;
+    background: #9d46b8;
     font-size: 23px;
 }
 #btn-mas:checked ~ .btn-mas label{

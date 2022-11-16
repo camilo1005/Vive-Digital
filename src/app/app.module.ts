@@ -42,7 +42,9 @@ const appRoutes: Routes = [
   {path:'animaciondigital', component:AnimacionDigitalComponent },
   {path:'infoarquitectura', component:InfoarquitecturaComponent },
   {path:'videopordron', component:VideoPorDronComponent },
-  {path:'video', component:ModalVideoComponent },
+  {path:'ll', component:ModalVideoComponent },
+  {path:'header', component:HeaderMainComponent  },
+
 
 ]
 @NgModule({
