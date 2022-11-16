@@ -29,7 +29,7 @@ import { ModalService } from './servicios/modal/modal.service';
 
 
 const appRoutes: Routes = [
-  {path:'inicio', component:HomeMainComponent},
+  {path:'', component:HomeMainComponent},
   {path:'nosotros', component:LoQueHacemosComponent},
   {path:'portafolio', component:PortafolioComponent },
   {path:'servicios', component:ServiciosComponent },
@@ -42,7 +42,7 @@ const appRoutes: Routes = [
   {path:'animaciondigital', component:AnimacionDigitalComponent },
   {path:'infoarquitectura', component:InfoarquitecturaComponent },
   {path:'videopordron', component:VideoPorDronComponent },
-  {path:'', component:ModalVideoComponent },
+  {path:'ll', component:ModalVideoComponent },
   {path:'header', component:HeaderMainComponent  },
 
 
