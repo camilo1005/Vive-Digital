@@ -13,7 +13,7 @@ import { ModalService } from 'src/app/servicios/modal/modal.service';
 export class HomeMainComponent implements OnInit {
 
   constructor(private galeria:ModalService) { 
-    galeria.cargar(["modal2"]);
+    galeria.cargar([""]);
   }
 
 

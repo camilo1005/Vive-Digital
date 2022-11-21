@@ -1,10 +1,8 @@
-
-
 const video = document.querySelector('#video');
 const btnPause = document.querySelector('#btnPause')
 const btnAudio = document.querySelector('#btnAudio');
 
-video.volume = 0;
+video.volumen= 0;
 
 btnPause.addEventListener('click', () => {
 
@@ -18,7 +16,7 @@ btnPause.addEventListener('click', () => {
 
     }
 
-});
+});                                                                                                       
 
 btnAudio.addEventListener('click', () => {
 
