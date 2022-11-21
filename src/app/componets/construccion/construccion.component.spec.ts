@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ModalVideoComponent } from './modal-video.component';
+import { ConstruccionComponent } from './construccion.component';
 
-describe('ModalVideoComponent', () => {
-  let component: ModalVideoComponent;
-  let fixture: ComponentFixture<ModalVideoComponent>;
+describe('ConstruccionComponent', () => {
+  let component: ConstruccionComponent;
+  let fixture: ComponentFixture<ConstruccionComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ModalVideoComponent ]
+      declarations: [ ConstruccionComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ModalVideoComponent);
+    fixture = TestBed.createComponent(ConstruccionComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
