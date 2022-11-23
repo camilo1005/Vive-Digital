@@ -122,7 +122,7 @@ section{
 .container{
     width: 100%;
     max-width: 1200px;
-    height: 569px;
+    height: 951px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -460,4 +460,23 @@ footer{
 
 .btn-audio {
     top: 70px;
+}
+
+
+.contenido a img{
+    width: 50px;
+
+}
+
+.icono img:last-child{
+    display: none;
+
+}
+
+.icono:hover img:last-child{
+    display: block;
+}
+
+.icono:hover img:first-child{
+    display: none;
 }
