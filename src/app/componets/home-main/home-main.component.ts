@@ -1,10 +1,6 @@
-import { Component, Input, OnInit } from '@angular/core';
-import { ModalService } from 'src/app/servicios/modal/modal.service';
+import { Component, OnInit } from '@angular/core';
 
- interface carouselImage{
-  imageAlt:string;
-  imageSrc:string;
- }
+
 @Component({
   selector: 'app-home-main',
   templateUrl: './home-main.component.html',
@@ -12,8 +8,8 @@ import { ModalService } from 'src/app/servicios/modal/modal.service';
 })
 export class HomeMainComponent implements OnInit {
 
-  constructor(private galeria:ModalService) { 
-    galeria.cargar([""]);
+  constructor() { 
+ 
   }
 
 

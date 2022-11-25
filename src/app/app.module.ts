@@ -30,7 +30,7 @@ import { ConstruccionComponent } from './componets/construccion/construccion.com
 
 
 const appRoutes: Routes = [
-  {path:'', component:HomeMainComponent},
+  {path:'inicio', component:HomeMainComponent},
   {path:'nosotros', component:LoQueHacemosComponent},
   {path:'portafolio', component:PortafolioComponent },
   {path:'servicios', component:ServiciosComponent },
@@ -43,7 +43,7 @@ const appRoutes: Routes = [
   {path:'animaciondigital', component:AnimacionDigitalComponent },
   {path:'infoarquitectura', component:InfoarquitecturaComponent },
   {path:'videopordron', component:VideoPorDronComponent },
-  {path:'construccion', component:ConstruccionComponent  },
+  {path:'', component:ConstruccionComponent  },
   {path:'header', component:HeaderMainComponent  },
 
 
